@@ -2,15 +2,14 @@ package CursoJava;
 
 public class EstructuraIf {
 	
-	public static void main(String [] args) {
-	
-	int temperatura = 10;
+    public static void main(String [] args) {
+    int temperatura = 10;
     boolean haceSol=true, nevando=false;
     
     if(temperatura >25){
     System.out.println("A la playa !!");
     }
-    // Si hace sol es verdadero
+    // Si hace sol, es verdadero
     if(haceSol){
     System.out.println("No te olvides la sombrilla");
     }
